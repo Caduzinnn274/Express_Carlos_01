@@ -14,7 +14,7 @@ server.get("/json", (req, res) => {
 
 server.use((req, res) => {
   // res.send("Erro !!!")
-  res.status(404).send("<h1>ERRO!</h1>");
+  res.status(404).send("<h1>ERRO!!!</h1>");
 });
 
 server.listen(3000);
